@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NodeServer", "NodeServer\NodeServer.vcxproj", "{A172E9B5-19C0-4D7E-926C-FEED799728CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A172E9B5-19C0-4D7E-926C-FEED799728CE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A172E9B5-19C0-4D7E-926C-FEED799728CE}.Debug|Win32.Build.0 = Debug|Win32
+		{A172E9B5-19C0-4D7E-926C-FEED799728CE}.Release|Win32.ActiveCfg = Release|Win32
+		{A172E9B5-19C0-4D7E-926C-FEED799728CE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

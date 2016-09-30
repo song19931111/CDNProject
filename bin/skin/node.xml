@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="316,447" sizebox="4,4,4,4" caption="0,0,0,32">
+    <Font name="微软雅黑" size="19" bold="false" italic="false" />
+    <VerticalLayout bkcolor="#FFF0F0F0" bkcolor2="#FFAAAAA0">
+        <HorizontalLayout height="32" bkcolor="#FFE6E6DC" bkcolor2="#FFAAAAA0">
+            <VerticalLayout />
+            <VerticalLayout width="77">
+                <Button name="minbtn" tooltip="��С��" float="true" pos="0,5,0,0" width="23" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;SysBtn\MinNormal.bmp&apos; " hotimage=" file=&apos;SysBtn\MinFocus.bmp&apos; " pushedimage=" file=&apos;SysBtn\MinFocus.bmp&apos; " />
+                <Button name="maxbtn" tooltip="���" float="true" pos="22,5,0,0" width="23" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;SysBtn\MaxNormal.bmp&apos; " hotimage=" file=&apos;SysBtn\MaxFocus.bmp&apos; " pushedimage=" file=&apos;SysBtn\MaxFocus.bmp&apos; " />
+                <Button name="restorebtn" tooltip="��ԭ" visible="false" float="true" pos="22,5,0,0" width="23" height="19" align="center" normalimage=" file=&apos;SysBtn\StoreNormal.bmp&apos; " hotimage=" file=&apos;SysBtn\StoreFocus.bmp&apos; " pushedimage=" file=&apos;SysBtn\StoreFocus.bmp&apos; " />
+                <Button name="closebtn" tooltip="�ر�" float="true" pos="44,5,0,0" width="28" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;SysBtn\CloseNormal.bmp&apos; " hotimage=" file=&apos;SysBtn\CloseFocus.bmp&apos; " pushedimage=" file=&apos;SysBtn\CloseFocus.bmp&apos; " />
+            </VerticalLayout>
+        </HorizontalLayout>
+        <Button name="btn_start" text="开始" float="true" pos="92,349,0,0" width="113" height="50" bkimage="button_nor.bmp" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        <HorizontalLayout width="313" height="146">
+            <Label text="节点速度" float="true" pos="31,71,0,0" width="94" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" />
+            <Text name="uploadText" text="0KB" float="true" pos="143,72,0,0" width="92" height="30" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="wrap" />
+            <Control float="true" pos="285,117,0,0" width="60" height="30" />
+            <Text name="statusText" text="连接主服务器中..." float="true" pos="83,17,0,0" width="126" height="30" textpadding="2,0,2,0" textcolor="#00FF0000" disabledtextcolor="#FFA7A6AA" align="wrap" />
+            <Text name="clientCountText" text="客户端数量:0" float="true" pos="35,114,0,0" width="107" height="30" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="wrap" />
+        </HorizontalLayout>
+        <HorizontalLayout width="310" height="157">
+            <Label text="下载缓存" float="true" pos="29,64,0,0" width="94" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" />
+            <Text name="downLoadText" text="0KB" float="true" pos="141,65,0,0" width="92" height="30" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="wrap" />
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

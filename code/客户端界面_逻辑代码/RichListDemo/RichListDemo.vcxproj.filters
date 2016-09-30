@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Kernel">
+      <UniqueIdentifier>{c009f84e-6982-4da8-b3a0-fcacbc58cdb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWork">
+      <UniqueIdentifier>{6f022b56-dd31-4a36-8667-c4876f522262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThreadPool">
+      <UniqueIdentifier>{3aa1e689-a710-452d-a878-c44208f68dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File">
+      <UniqueIdentifier>{a4f0c69e-23f7-4672-b7fe-dbce4b0f1ed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PackDef">
+      <UniqueIdentifier>{1ae4a37e-4107-4311-92dd-0ca0aa09e1b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{611a98c2-4e00-4435-be3d-5ce13d7727cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RichListDemo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RichListWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ListEx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\ErrCode.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\LockQueue.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\ProFile.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\StringBuffer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PackDef\PackDef.cpp">
+      <Filter>PackDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThreadPool\ThreadPool.cpp">
+      <Filter>ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\File\md5.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\File\MyFile.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetWork\ClientNetImpl.cpp">
+      <Filter>NetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetWork\Libcurl.cpp">
+      <Filter>NetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetWork\NetWork.cpp">
+      <Filter>NetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Kernel\Kernel.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="DownDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RichListDemo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RichListWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ListEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\ErrCode.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\LockQueue.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\MyLock.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\ProFile.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\StringBuffer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PackDef\PackDef.h">
+      <Filter>PackDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThreadPool\ThreadPool.h">
+      <Filter>ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\File\md5.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\File\MyFile.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetWork\ClientNetImpl.h">
+      <Filter>NetWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetWork\Libcurl.h">
+      <Filter>NetWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetWork\NetWork.h">
+      <Filter>NetWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Kernel\Kernel.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="DownDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="RichListDemo.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RichListDemo.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

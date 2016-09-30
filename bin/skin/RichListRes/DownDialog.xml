@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="510,199" caption="0,0,3,3">
+    <VerticalLayout width="400" height="400" bkimage="winbk.bmp">
+        <HorizontalLayout width="504" height="155">
+            <VerticalLayout width="94" height="154">
+                <Text text="下载地址" float="true" pos="30,63,0,0" width="60" height="22" textpadding="2,0,2,0" textcolor="#00808080" disabledtextcolor="#FFA7A6AA" align="wrap" />
+                <Text text="路    径" float="true" pos="30,112,0,0" width="60" height="22" textpadding="2,0,2,0" textcolor="#00808080" disabledtextcolor="#FFA7A6AA" align="wrap" />
+            </VerticalLayout>
+            <HorizontalLayout width="407" height="154">
+                <Edit name="TextUrl" float="true" pos="18,57,0,0" width="360" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Edit name="TextPath" float="true" pos="21,113,0,0" width="356" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <Button name="btn_ok" text="确认" float="true" pos="151,164,0,0" width="74" height="30" bkimage="button_over.bmp" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        <Button name="btn_cancel" text="取消" float="true" pos="282,164,0,0" width="74" height="30" bkimage="button_over.bmp" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+    </VerticalLayout>
+</Window>

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Kernel">
+      <UniqueIdentifier>{3b30ba55-2730-4e25-8516-7beff9664a06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWork">
+      <UniqueIdentifier>{78f4ef4a-93f0-4d0b-a2c1-f95f8612fe71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{38c1ac94-3c9a-4837-a1fc-1c228eecdaa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThreadPool">
+      <UniqueIdentifier>{22d3a15a-42e5-4582-9670-2a1f7929fb41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File">
+      <UniqueIdentifier>{b589c20e-3c17-4476-8b6a-0ea67670748c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PackDef">
+      <UniqueIdentifier>{adaac3f1-1c87-4ad7-8ef4-08c4e777fec5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeServerDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Kernel\Kernel.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetWork\IOCP.cpp">
+      <Filter>NetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetWork\NetWork.cpp">
+      <Filter>NetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThreadPool\ThreadPool.cpp">
+      <Filter>ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\ErrCode.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\LockQueue.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\ProFile.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\StringBuffer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\PackDef\PackDef.cpp">
+      <Filter>PackDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\File\md5.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\File\MyFile.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NodeServerDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Kernel\Kernel.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetWork\IOCP.h">
+      <Filter>NetWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetWork\NetWork.h">
+      <Filter>NetWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThreadPool\ThreadPool.h">
+      <Filter>ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\ErrCode.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\LockQueue.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\MyLock.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\ProFile.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\StringBuffer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\PackDef\PackDef.h">
+      <Filter>PackDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\File\md5.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\File\MyFile.h">
+      <Filter>File</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
